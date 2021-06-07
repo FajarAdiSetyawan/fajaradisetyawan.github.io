@@ -353,7 +353,7 @@
         </div>
         <div class="col-lg-6 text-lg-right text-center">
           <div class="copyright">
-            &copy; Fajar Adi Setyawan <strong>2020.</strong>
+            &copy; Fajar Adi Setyawan <strong id="year">.</strong>
           </div>
           <div class="credits"></div>
         </div>
@@ -378,6 +378,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 </body>
 
 </html>
